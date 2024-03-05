@@ -1,0 +1,182 @@
+body{
+    width: 100%;
+    background-color: #b3d7f7;
+}
+
+header{
+ 
+    width: 100%;
+}
+.imagen_logo{
+   
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+/* aqui va el cuerpo dela pagina */
+
+.main{
+
+    display: grid;
+    margin-left: 10%; 
+    grid-template-columns: 60% 30%;
+    height: 500px;
+
+}
+
+.textarea{
+    border: none;
+    margin-top: 8%;
+    resize: none;
+    position: relative;
+    left: 10%;
+    background: none;
+    outline: none;
+    width: 70%;
+    font-size: 20px;
+
+
+}
+.parrafo{
+    position: relative;
+    top:41% ;
+    left: 13%;
+}
+.botones{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    
+
+}
+.botones button{
+    height: 50px;
+    width: 180px;
+    margin: 15px;
+    border-radius: 12px;
+
+}
+    
+
+.right{
+  background-color: rgb(218, 228, 236);
+  
+
+}
+.textarea22{
+    margin: 20px 0 0 15px;
+    width: 70%;
+    border: none;
+    resize: none;
+    background: none;
+    outline: none;
+}
+.parrafo2{
+    position: relative;
+    top: 40%;
+    left: 15%;
+}
+.parrafo2 p {
+    font-size: 18px;
+}
+.copiar{
+    position: relative;
+    top: 55%;
+    left: 10%;
+    
+}
+.boton_copiar{
+    height: 50px;
+    width: 180px;
+    margin: 15px;
+    border-radius: 12px;
+}
+.footer{
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:760px) {
+    body{
+       height: 1100px;
+        width: 750px;
+    }
+    .main{
+        display: flow-root;
+    }
+    .left{
+   
+        height: 750px;
+    }
+    .textarea{
+        position: relative;
+        top: 20%;
+        font-size: 20px;
+    }
+    .parrafo{
+        top: 62%;
+    }
+
+    .botones{
+        top: 65%;
+        left: 0;
+    }
+    .botones button{
+        width: 40%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .right{
+        
+        height: 200px;
+        border-radius: 40px;
+    }
+    .parrafo2{
+        top: 20%;
+    }
+    .parrafo2 p{
+        font-size: 25px;
+    }
+    .copiar{
+       top: 30%;
+       left: 30%;
+    }
+    .boton_copiar{
+        font-size: 20px;
+        display: none;
+        
+    }
+    .footer{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:380px) {
+    body{
+        width: 375px;
+        height: 950px;
+    }
+    .right{
+        height: 250px;
+    }
+    .botones{
+        top: 63%;
+    }
+    .botones button{
+        width: 80%;
+        
+    }
+    .parrafo2{
+        left: 4%;
+    }
+    .footer{
+        display: none;
+    }
+
+
+}
+
+

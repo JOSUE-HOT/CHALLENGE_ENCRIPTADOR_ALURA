@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css" > 
+    <title>challenge_encriptador</title>
+</head>
+<body>
+
+    <header >
+        <div class="imagen_logo">
+            <img src="imagenes/Logo.png">
+
+        </div>
+
+    </header>
+    <main>
+        <div class="main">
+             <div class="left">
+                <textarea class="textarea" id="textarea" placeholder="ingrese un texto aqui" ></textarea>
+                 <p class="parrafo"> &#9432; solo minusculas y sin asento</p>
+
+                <div class="botones">
+
+                     <button onclick="incriptar()">encriptar</button>
+                     <button onclick="desencripta()">decencriptar</button>
+                </div>
+               
+
+
+            </div>
+            <div class="right">
+                <div class="textarea2">
+                    <textarea class="textarea22" id="textarea2"></textarea>
+                </div>
+
+                <div class="parrafo2">
+                    <p>no se encontro ningun texto</p>
+                </div>
+                <div class="copiar">
+                    <button class="boton_copiar" onclick="copiarTexto()">copiar</button>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </main>
+    <footer >
+        <div class="footer">
+            <p>creador dela pagina:</p> <p>josuemontalvo15.@gmail.com</p>
+
+
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>
+
